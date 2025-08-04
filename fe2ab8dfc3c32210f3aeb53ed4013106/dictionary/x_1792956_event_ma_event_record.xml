@@ -15,5 +15,6 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
             </choice>
         </element>
+        <element label="VIP" max_length="40" name="u_vip" type="boolean"/>
     </element>
 </database>
