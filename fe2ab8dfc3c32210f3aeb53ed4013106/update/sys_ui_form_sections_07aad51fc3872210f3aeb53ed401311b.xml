@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="07aad51fc3872210f3aeb53ed401311b" sys_domain="global" table="x_1792956_event_ma_event_record" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 08:54:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43aad51fc3872210f3aeb53ed401311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1792956_event_ma_event_record" name="x_1792956_event_ma_event_record" sys_domain="global" view="0ae29953c3872210f3aeb53ed401319b">07aad51fc3872210f3aeb53ed401311b</sys_ui_form>
+            <sys_ui_section caption="Planning details" display_value="Planning details" name="x_1792956_event_ma_event_record" sys_domain="global" view="0ae29953c3872210f3aeb53ed401319b">c7aad51fc3872210f3aeb53ed4013119</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 08:54:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 08:54:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0faad51fc3872210f3aeb53ed401311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1792956_event_ma_event_record" name="x_1792956_event_ma_event_record" sys_domain="global" view="0ae29953c3872210f3aeb53ed401319b">07aad51fc3872210f3aeb53ed401311b</sys_ui_form>
+            <sys_ui_section caption="Contact Information" display_value="Contact Information" name="x_1792956_event_ma_event_record" sys_domain="global" view="0ae29953c3872210f3aeb53ed401319b">07aad51fc3872210f3aeb53ed401311a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 08:54:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 08:56:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06fa5d1fc3872210f3aeb53ed4013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1792956_event_ma_event_record" name="x_1792956_event_ma_event_record" sys_domain="global" view="0ae29953c3872210f3aeb53ed401319b">07aad51fc3872210f3aeb53ed401311b</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1792956_event_ma_event_record" sys_domain="global" view="0ae29953c3872210f3aeb53ed401319b">c6fa5d1fc3872210f3aeb53ed4013152</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 08:56:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1792956_event_ma_event_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-04 08:54:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07aad51fc3872210f3aeb53ed401311b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1792956_event_ma_event_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1792956_event_ma">fe2ab8dfc3c32210f3aeb53ed4013106</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Management &amp;amp; Planning System">fe2ab8dfc3c32210f3aeb53ed4013106</sys_scope>
+            <sys_update_name>sys_ui_form_sections_07aad51fc3872210f3aeb53ed401311b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-04 08:54:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Planner View" name="Planner_View">0ae29953c3872210f3aeb53ed401319b</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
