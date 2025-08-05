@@ -3,7 +3,7 @@
         <element attributes="omit_sys_original=true" label="Total_Budget" max_length="20" name="u_total_budget" type="currency"/>
         <element label="Remaining_Budget" max_length="40" name="u_remaining_budget" type="integer"/>
         <element attributes="encode_utf8=false" label="Event_Id" max_length="32" name="u_event_id" reference="x_1792956_event_ma_event_record" type="reference"/>
-        <element attributes="omit_sys_original=true" label="Amount_Spent" max_length="20" name="u_amount_spent" type="currency"/>
-        <element attributes="omit_sys_original=true" label="Amount_Remaining" max_length="20" name="u_amount_remaining" type="currency"/>
+        <element attributes="omit_sys_original=true,audit=true" audit="true" label="Amount_Spent" max_length="20" name="u_amount_spent" type="currency"/>
+        <element attributes="omit_sys_original=true,audit=true" audit="true" label="Amount_Remaining" max_length="20" name="u_amount_remaining" type="currency"/>
     </element>
 </database>

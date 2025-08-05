@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1792956_event_ma.AttendeeUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AttendeeUtils</name>
+        <script><![CDATA[var AttendeeUtils = Class.create();
+AttendeeUtils.prototype = {
+    initialize: function() {
+    },
+	
+
+    
+    isAttendeeRegistered: function(attendeeId) {
+        var gr = new GlideRecord('Attendee');
+        return gr.get(attendeeId); 
+    },
+
+    
+    getAttendeeDetails: function(attendeeId) {
+        var result = {};
+        var gr = new GlideRecord('Attendee'); 
+        if (gr.get(attendeeId)) {
+            result.name = gr.getDisplayValue('u_first_name');
+            result.email = gr.getValue('u_email');
+            result.phone = gr.getValue('u_contact_number');
+            
+        }
+        return result;
+    },
+
+    
+    getAttendeesByEvent: function(eventId) {
+        var attendees = [];
+        var gr = new GlideRecord('Attendee'); 
+        gr.addQuery('u_event_id', eventId);
+        gr.query();
+        while (gr.next()) {
+            attendees.push(gr.getDisplayValue('u_first_name')); 
+        }
+        return attendees;
+    },
+
+    
+
+    type: 'AttendeeUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 12:25:52</sys_created_on>
+        <sys_id>856017e3c3c72210f3aeb53ed40131f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AttendeeUtils</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1792956_event_ma">fe2ab8dfc3c32210f3aeb53ed4013106</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">fe2ab8dfc3c32210f3aeb53ed4013106</sys_scope>
+        <sys_update_name>sys_script_include_856017e3c3c72210f3aeb53ed40131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 12:54:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

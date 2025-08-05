@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" label="Task_Name" max_length="40" name="u_task_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Due_Date" max_length="40" name="u_due_date" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Event_Id" max_length="32" name="u_event_id" reference="x_1792956_event_ma_event_record" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="not started" label="Status" max_length="40" name="u_status" type="string">
+        <element attributes="edge_encryption_enabled=true" audit="true" choice="3" default="not started" label="Status" max_length="40" name="u_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="New" sequence="0" value="new"/>
                 <element inactive_on_update="false" label="Not Started" sequence="1" value="not started"/>
