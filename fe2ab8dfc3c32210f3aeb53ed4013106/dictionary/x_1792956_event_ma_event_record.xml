@@ -5,6 +5,7 @@
         <element attributes="edge_encryption_enabled=true" label="Contact_Person" max_length="40" name="u_contact_person" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Event_Name" max_length="40" name="u_event_name" type="string"/>
+        <element label="Finished" max_length="40" name="u_finished" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Contact_Number" max_length="40" name="u_contact_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="planned" label="Status" max_length="40" name="u_status" type="string">
             <choice>
